@@ -5,7 +5,7 @@
  "description": "開発協力大綱の見直し・ODA原資確保・成果の可視化・人間の安全保障など日本のODA戦略全般を巡る議論。",
  "firstSeen": "2026-05-08",
  "totalChars": 9129,
- "sessionShare": 0.005358715176275843,
+ "sessionShare": 0.005197530646300894,
  "weekly": [
   {
    "week": "2026-W08",
@@ -19,6 +19,11 @@
   },
   {
    "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W17",
    "chars": 0,
    "share": 0
   },
