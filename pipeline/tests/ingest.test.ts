@@ -71,4 +71,20 @@ describe("ingestBatch", () => {
     expect(r.errors.join("\n")).toContain("missing assignment for: s3");
     expect(r.errors.join("\n")).toContain("unknown topicId: t9999");
   });
+
+  it("同一バッチ内のtempId重複をエラーにする（幽霊トピック防止）", () => {
+    const output: BatchOutput = {
+      batchId: "X-00",
+      assignments: [
+        { speechId: "s2", topicId: "new:1" },
+        { speechId: "s3", topicId: "new:1" },
+      ],
+      newTopics: [
+        { tempId: "new:1", name: "ガソリン税・暫定税率", description: "a" },
+        { tempId: "new:1", name: "選択的夫婦別姓", description: "b" },
+      ],
+    };
+    const r = ingestBatch(emptyRegistry, input, output, "2026-06-01");
+    expect(r.errors.join("\n")).toContain("duplicate tempId: new:1");
+  });
 });

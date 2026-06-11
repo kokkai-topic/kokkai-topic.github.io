@@ -25,6 +25,11 @@ export function ingestBatch(registry: Registry, input: BatchInput, output: Batch
   let nextId = registry.nextId;
   const topics = [...registry.topics];
   for (const nt of output.newTopics ?? []) {
+    // tempId重複を許すと最初の提案が「割当ゼロの幽霊トピック」として台帳に残ってしまう
+    if (tempMap.has(nt.tempId)) {
+      errors.push(`duplicate tempId: ${nt.tempId}`);
+      continue;
+    }
     const existing = topics.find((t) => t.name === nt.name);
     if (existing) {
       tempMap.set(nt.tempId, existing.id);
