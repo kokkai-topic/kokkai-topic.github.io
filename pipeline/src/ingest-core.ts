@@ -1,3 +1,4 @@
+import { CATEGORIES } from "./categories";
 import type { Assignment, BatchInput, BatchOutput, Registry, Topic } from "./types";
 
 export interface IngestResult {
@@ -30,6 +31,10 @@ export function ingestBatch(registry: Registry, input: BatchInput, output: Batch
       errors.push(`duplicate tempId: ${nt.tempId}`);
       continue;
     }
+    if (nt.category && !(CATEGORIES as readonly string[]).includes(nt.category)) {
+      errors.push(`unknown category: ${nt.category} (topic ${nt.name})`);
+      continue;
+    }
     const existing = topics.find((t) => t.name === nt.name);
     if (existing) {
       tempMap.set(nt.tempId, existing.id);
@@ -37,7 +42,7 @@ export function ingestBatch(registry: Registry, input: BatchInput, output: Batch
     }
     const id = `t${String(nextId).padStart(4, "0")}`;
     nextId++;
-    const topic: Topic = { id, name: nt.name, description: nt.description, firstSeen: date };
+    const topic: Topic = { id, name: nt.name, description: nt.description, firstSeen: date, category: nt.category };
     topics.push(topic);
     added.push(topic);
     tempMap.set(nt.tempId, id);

@@ -19,6 +19,7 @@ const pct = (x: number) => (x * 100).toFixed(1) + "%";
 
 <Layout title={detail.name} description={detail.description}>
   <h1>{detail.name}</h1>
+  <p class="category">分類: {detail.category}</p>
   <p>{detail.description}</p>
   <p>
     会期全体の議論量に占める割合: <strong>{pct(detail.sessionShare)}</strong>
@@ -66,6 +67,14 @@ const pct = (x: number) => (x * 100).toFixed(1) + "%";
   #trend {
     width: 100%;
     height: 300px;
+  }
+  .category {
+    display: inline-block;
+    background: #f0f0f0;
+    border-radius: 4px;
+    padding: 2px 10px;
+    font-size: 13px;
+    color: #555;
   }
 </style>
 

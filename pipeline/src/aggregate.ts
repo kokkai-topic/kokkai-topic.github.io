@@ -5,10 +5,11 @@ import {
   aggregatePeriod,
   buildFacts,
   buildTopicDetail,
-  topicNameResolver,
+  topicMetaResolver,
   type PeriodDef,
 } from "./aggregate-core";
-import type { AssignmentFile, Meta, Registry } from "./types";
+import { CATEGORIES } from "./categories";
+import type { AssignmentFile, Meta, Registry, Topic } from "./types";
 import { mondayOfIsoWeek } from "./week";
 
 async function main() {
@@ -51,15 +52,15 @@ async function main() {
     ...weeks.map((w) => ({ key: w, label: weekLabel(w), week: w })),
   ];
 
-  const name = topicNameResolver(registry);
+  const metaOf = topicMetaResolver(registry);
   await rm("data/aggregates", { recursive: true, force: true });
   await mkdir("data/aggregates/periods", { recursive: true });
   for (const def of defs) {
-    const agg = aggregatePeriod(facts, def, name);
+    const agg = aggregatePeriod(facts, def, metaOf);
     await writeFile(`data/aggregates/periods/${def.key}.json`, JSON.stringify(agg, null, 1));
   }
 
-  const session = aggregatePeriod(facts, defs[0], name);
+  const session = aggregatePeriod(facts, defs[0], metaOf);
   const parties = Object.entries(session.byParty)
     .sort((a, b) => b[1].totalChars - a[1].totalChars)
     .map(([g]) => g);
@@ -71,6 +72,7 @@ async function main() {
         sessionLabel: meta.sessionLabel,
         periods: defs.map((d) => ({ key: d.key, label: d.label })),
         parties,
+        categories: CATEGORIES,
       },
       null,
       1,
@@ -82,7 +84,15 @@ async function main() {
   // session期間の集計（until: today）とトピック詳細の分母を一致させるため上限も揃える
   const sessionFacts = facts.filter((f) => f.date >= meta.sessionStartDate && f.date <= today);
   let detailCount = 0;
-  for (const t of registry.topics) {
+  // 「その他」も疑似トピックとして詳細ページを生成し、中身（未分類の発言）を確認できるようにする
+  const otherTopic: Topic = {
+    id: "other",
+    name: "その他",
+    description:
+      "特定の争点に分類されない実質的な発言。全方位の演説（施政方針演説など）や、複数論点にまたがり中心が定まらない発言が含まれます。",
+    firstSeen: meta.sessionStartDate,
+  };
+  for (const t of [...registry.topics, otherTopic]) {
     const detail = buildTopicDetail(sessionFacts, t);
     if (detail.totalChars === 0) continue;
     if (detail.speechesTruncated) {

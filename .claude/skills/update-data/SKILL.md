@@ -28,9 +28,12 @@ description: 国会会議録の週次データ更新。新着会議録の取得�
 {
   "batchId": "<入力と同じ値>",
   "assignments": [{ "speechId": "...", "topicId": "t0001 | other | procedural | new:1" }],
-  "newTopics": [{ "tempId": "new:1", "name": "争点名", "description": "1文の説明" }]
+  "newTopics": [{ "tempId": "new:1", "name": "争点名", "description": "1文の説明", "category": "大分類" }]
 }
 ```
+
+category は次の固定リストから必ず1つ選ぶ（pipeline/src/categories.ts と同一）:
+経済・産業 ／ 財政・税制 ／ 社会保障・医療 ／ 外交・安全保障 ／ 農林水産 ／ 教育・子育て ／ 政治・行政 ／ エネルギー・環境 ／ 国土・交通・防災 ／ 司法・憲法・人権 ／ その他
 
 - 入力の全発言IDを**過不足なく1回ずつ**割り当てる
 - topicId は次のいずれか: 既存台帳のID ／ newTopics で提案する tempId ／ "other"（政策論点でない実質発言）／ "procedural"（機械判定をすり抜けた議事進行: 委員の紹介、休憩宣言、採決手続きなど）

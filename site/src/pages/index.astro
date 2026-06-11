@@ -25,6 +25,9 @@ import index from "../../../data/aggregates/index.json";
     </label>
   </div>
   <div id="treemap"></div>
+  <ul class="legend" id="legend">
+    {index.categories.map((c) => <li><span class="chip" data-category={c}></span>{c}</li>)}
+  </ul>
 </Layout>
 
 <style>
@@ -42,6 +45,27 @@ import index from "../../../data/aggregates/index.json";
       height: 420px;
     }
   }
+  .legend {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    padding: 0;
+    margin: 10px 0 0;
+    font-size: 12px;
+    color: #555;
+  }
+  .legend li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .legend .chip {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+  }
 </style>
 
 <script>
@@ -52,6 +76,26 @@ import index from "../../../data/aggregates/index.json";
   const periodSel = document.getElementById("period") as HTMLSelectElement;
   const partySel = document.getElementById("party") as HTMLSelectElement;
 
+  // カテゴリ→色。順序は aggregates/index.json の categories（= pipeline/src/categories.ts）と一致させる
+  const PALETTE: Record<string, string> = {
+    "経済・産業": "#4e79a7",
+    "財政・税制": "#f28e2c",
+    "社会保障・医療": "#e15759",
+    "外交・安全保障": "#76b7b2",
+    "農林水産": "#59a14f",
+    "教育・子育て": "#edc948",
+    "政治・行政": "#b07aa1",
+    "エネルギー・環境": "#ff9da7",
+    "国土・交通・防災": "#9c755f",
+    "司法・憲法・人権": "#86a8e7",
+    "その他": "#bab0ac",
+  };
+  const colorOf = (category: string) => PALETTE[category] ?? PALETTE["その他"];
+
+  for (const chip of document.querySelectorAll<HTMLElement>(".legend .chip")) {
+    chip.style.background = colorOf(chip.dataset.category ?? "その他");
+  }
+
   async function render() {
     const res = await fetch(`${base}/data/aggregates/periods/${periodSel.value}.json`);
     const period = await res.json();
@@ -61,7 +105,7 @@ import index from "../../../data/aggregates/index.json";
       {
         tooltip: {
           formatter: (p: any) =>
-            `${p.name}<br>${(p.data.share * 100).toFixed(1)}%（${p.value.toLocaleString()}文字）`,
+            `${p.name}<br>${p.data.category}<br>${(p.data.share * 100).toFixed(1)}%（${p.value.toLocaleString()}文字）`,
         },
         series: [
           {
@@ -73,7 +117,14 @@ import index from "../../../data/aggregates/index.json";
               show: true,
               formatter: (p: any) => `${p.name}\n${(p.data.share * 100).toFixed(1)}%`,
             },
-            data: src.topics.map((t: any) => ({ name: t.name, value: t.chars, id: t.id, share: t.share })),
+            data: src.topics.map((t: any) => ({
+              name: t.name,
+              value: t.chars,
+              id: t.id,
+              share: t.share,
+              category: t.category,
+              itemStyle: { color: colorOf(t.category) },
+            })),
           },
         ],
       },
@@ -82,7 +133,7 @@ import index from "../../../data/aggregates/index.json";
   }
 
   chart.on("click", (p: any) => {
-    if (p.data && p.data.id && p.data.id !== "other") {
+    if (p.data && p.data.id) {
       location.href = `${base}/topics/${p.data.id}/`;
     }
   });

@@ -1,11 +1,13 @@
 import { describe, expect, it } from "vitest";
-import { aggregatePeriod, buildFacts, buildTopicDetail, topicNameResolver } from "../src/aggregate-core";
+import { aggregatePeriod, buildFacts, buildTopicDetail, topicMetaResolver } from "../src/aggregate-core";
 import type { AssignmentFile, Registry } from "../src/types";
 import { makeMeeting } from "./fixtures/meeting";
 
 const registry: Registry = {
   nextId: 2,
-  topics: [{ id: "t0001", name: "ガソリン税・暫定税率", description: "説明", firstSeen: "2026-06-01" }],
+  topics: [
+    { id: "t0001", name: "ガソリン税・暫定税率", description: "説明", firstSeen: "2026-06-01", category: "財政・税制" },
+  ],
 };
 
 const assignments: AssignmentFile[] = [
@@ -31,11 +33,11 @@ describe("buildFacts", () => {
 });
 
 describe("aggregatePeriod", () => {
-  const agg = aggregatePeriod(facts, { key: "session", label: "会期全体", from: "2026-01-01", until: "2026-12-31" }, topicNameResolver(registry));
+  const agg = aggregatePeriod(facts, { key: "session", label: "会期全体", from: "2026-01-01", until: "2026-12-31" }, topicMetaResolver(registry));
 
   it("シェアの合計が1になる", () => {
     expect(agg.topics.reduce((s, t) => s + t.share, 0)).toBeCloseTo(1);
-    expect(agg.topics[0]).toMatchObject({ id: "t0001", name: "ガソリン税・暫定税率" });
+    expect(agg.topics[0]).toMatchObject({ id: "t0001", name: "ガソリン税・暫定税率", category: "財政・税制" });
     expect(agg.totalChars).toBe(facts[0].chars + facts[1].chars);
   });
 
@@ -45,9 +47,9 @@ describe("aggregatePeriod", () => {
   });
 
   it("週キー指定でフィルタできる", () => {
-    const w = aggregatePeriod(facts, { key: "2026-W23", label: "6/1の週", week: "2026-W23" }, topicNameResolver(registry));
+    const w = aggregatePeriod(facts, { key: "2026-W23", label: "6/1の週", week: "2026-W23" }, topicMetaResolver(registry));
     expect(w.totalChars).toBe(agg.totalChars);
-    const none = aggregatePeriod(facts, { key: "2026-W30", label: "x", week: "2026-W30" }, topicNameResolver(registry));
+    const none = aggregatePeriod(facts, { key: "2026-W30", label: "x", week: "2026-W30" }, topicMetaResolver(registry));
     expect(none.totalChars).toBe(0);
   });
 });

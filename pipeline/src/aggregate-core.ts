@@ -1,4 +1,5 @@
 import type { RawMeeting } from "./api";
+import { DEFAULT_CATEGORY } from "./categories";
 import { normalizeMeeting } from "./normalize";
 import type { AssignmentFile, Registry, Topic } from "./types";
 import { isoWeek } from "./week";
@@ -60,6 +61,7 @@ export interface PeriodDef {
 export interface TopicShare {
   id: string;
   name: string;
+  category: string;
   chars: number;
   share: number;
 }
@@ -72,12 +74,18 @@ export interface PeriodAggregate {
   byParty: Record<string, { totalChars: number; topics: TopicShare[] }>;
 }
 
-export function topicNameResolver(registry: Registry): (id: string) => string {
-  const map = new Map(registry.topics.map((t) => [t.id, t.name]));
-  return (id) => (id === "other" ? "その他" : (map.get(id) ?? id));
+export interface TopicMeta {
+  name: string;
+  category: string;
 }
 
-function shares(facts: SpeechFact[], topicName: (id: string) => string): { totalChars: number; topics: TopicShare[] } {
+export function topicMetaResolver(registry: Registry): (id: string) => TopicMeta {
+  const map = new Map(registry.topics.map((t) => [t.id, { name: t.name, category: t.category ?? DEFAULT_CATEGORY }]));
+  return (id) =>
+    id === "other" ? { name: "その他", category: DEFAULT_CATEGORY } : (map.get(id) ?? { name: id, category: DEFAULT_CATEGORY });
+}
+
+function shares(facts: SpeechFact[], topicMeta: (id: string) => TopicMeta): { totalChars: number; topics: TopicShare[] } {
   const byTopic = new Map<string, number>();
   let total = 0;
   for (const f of facts) {
@@ -85,21 +93,24 @@ function shares(facts: SpeechFact[], topicName: (id: string) => string): { total
     total += f.chars;
   }
   const topics = [...byTopic.entries()]
-    .map(([id, chars]) => ({ id, name: topicName(id), chars, share: total > 0 ? chars / total : 0 }))
+    .map(([id, chars]) => {
+      const meta = topicMeta(id);
+      return { id, name: meta.name, category: meta.category, chars, share: total > 0 ? chars / total : 0 };
+    })
     .sort((a, b) => b.chars - a.chars);
   return { totalChars: total, topics };
 }
 
-export function aggregatePeriod(facts: SpeechFact[], def: PeriodDef, topicName: (id: string) => string): PeriodAggregate {
+export function aggregatePeriod(facts: SpeechFact[], def: PeriodDef, topicMeta: (id: string) => TopicMeta): PeriodAggregate {
   const inPeriod = facts.filter((f) =>
     def.week ? f.week === def.week : f.date >= (def.from ?? "0000-00-00") && f.date <= (def.until ?? "9999-99-99"),
   );
-  const all = shares(inPeriod, topicName);
+  const all = shares(inPeriod, topicMeta);
   const byParty: PeriodAggregate["byParty"] = {};
   for (const g of new Set(inPeriod.map((f) => f.group))) {
     byParty[g] = shares(
       inPeriod.filter((f) => f.group === g),
-      topicName,
+      topicMeta,
     );
   }
   return { key: def.key, label: def.label, totalChars: all.totalChars, topics: all.topics, byParty };
@@ -108,6 +119,7 @@ export function aggregatePeriod(facts: SpeechFact[], def: PeriodDef, topicName: 
 export interface TopicDetail {
   id: string;
   name: string;
+  category: string;
   description: string;
   firstSeen: string;
   totalChars: number;
@@ -160,6 +172,7 @@ export function buildTopicDetail(facts: SpeechFact[], topic: Topic): TopicDetail
   return {
     id: topic.id,
     name: topic.name,
+    category: topic.category ?? DEFAULT_CATEGORY,
     description: topic.description,
     firstSeen: topic.firstSeen,
     totalChars,

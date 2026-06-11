@@ -18,6 +18,7 @@ export interface Topic {
   name: string;
   description: string;
   firstSeen: string; // YYYY-MM-DD
+  category?: string; // categories.ts の CATEGORIES のいずれか。未設定は「その他」扱い
 }
 
 export interface Registry {
@@ -59,6 +60,7 @@ export interface NewTopicProposal {
   tempId: string; // "new:1" 形式
   name: string;
   description: string;
+  category?: string; // categories.ts の CATEGORIES のいずれか
 }
 
 export interface BatchOutput {
