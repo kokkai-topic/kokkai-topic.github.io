@@ -79,7 +79,8 @@ async function main() {
 
   await rm("data/topic-details", { recursive: true, force: true });
   await mkdir("data/topic-details", { recursive: true });
-  const sessionFacts = facts.filter((f) => f.date >= meta.sessionStartDate);
+  // session期間の集計（until: today）とトピック詳細の分母を一致させるため上限も揃える
+  const sessionFacts = facts.filter((f) => f.date >= meta.sessionStartDate && f.date <= today);
   let detailCount = 0;
   for (const t of registry.topics) {
     const detail = buildTopicDetail(sessionFacts, t);

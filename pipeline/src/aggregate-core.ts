@@ -132,10 +132,15 @@ export function buildTopicDetail(facts: SpeechFact[], topic: Topic): TopicDetail
   const totalAll = facts.reduce((s, f) => s + f.chars, 0);
   const totalChars = mine.reduce((s, f) => s + f.chars, 0);
 
-  const weeks = [...new Set(facts.map((f) => f.week))].sort();
+  // 週ごとの合計を先に1パスで作る（週×トピックごとにfacts全走査するとフルセッション規模で数秒かかる）
+  const weekTotals = new Map<string, number>();
+  for (const f of facts) weekTotals.set(f.week, (weekTotals.get(f.week) ?? 0) + f.chars);
+  const mineByWeek = new Map<string, number>();
+  for (const f of mine) mineByWeek.set(f.week, (mineByWeek.get(f.week) ?? 0) + f.chars);
+  const weeks = [...weekTotals.keys()].sort();
   const weekly = weeks.map((week) => {
-    const wAll = facts.filter((f) => f.week === week).reduce((s, f) => s + f.chars, 0);
-    const wMine = mine.filter((f) => f.week === week).reduce((s, f) => s + f.chars, 0);
+    const wAll = weekTotals.get(week) ?? 0;
+    const wMine = mineByWeek.get(week) ?? 0;
     return { week, chars: wMine, share: wAll > 0 ? wMine / wAll : 0 };
   });
 
