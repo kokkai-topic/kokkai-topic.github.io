@@ -1,0 +1,75 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "国会で議論されている争点と、その議論量の割合を可視化するサイト" } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | 国会トピックマップ</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+  </head>
+  <body>
+    <header>
+      <a href={`${base}/`}><strong>国会トピックマップ</strong></a>
+      <nav><a href={`${base}/about/`}>このサイトについて</a></nav>
+    </header>
+    <main><slot /></main>
+    <footer>
+      <p>
+        出典: <a href="https://kokkai.ndl.go.jp/">国会会議録検索システム</a>のAPIを利用しています。
+        トピック分類は機械処理（LLM）によるもので、誤りを含む可能性があります。
+      </p>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  body {
+    font-family: system-ui, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+    margin: 0;
+    color: #222;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  header a {
+    color: inherit;
+    text-decoration: none;
+  }
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px 20px 40px;
+  }
+  footer {
+    border-top: 1px solid #ddd;
+    padding: 12px 20px;
+    font-size: 12px;
+    color: #666;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+  }
+  th,
+  td {
+    border-bottom: 1px solid #eee;
+    padding: 6px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+</style>

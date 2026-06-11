@@ -1,0 +1,16 @@
+{
+  "name": "site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/sync-data.mjs",
+    "dev": "astro dev",
+    "prebuild": "node scripts/sync-data.mjs",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.0.0",
+    "echarts": "^5.6.0"
+  }
+}
