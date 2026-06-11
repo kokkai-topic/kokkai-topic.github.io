@@ -1,0 +1,81 @@
+{
+ "id": "t0267",
+ "name": "海外通信放送支援機構法改正",
+ "category": "経済・産業",
+ "description": "海外通信・放送・郵便事業支援機構の株式等処分期限を十年間延長する法改正の審議。",
+ "firstSeen": "2026-04-24",
+ "totalChars": 432,
+ "sessionShare": 0.0002073309736636871,
+ "weekly": [
+  {
+   "week": "2026-W08",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W09",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W17",
+   "chars": 432,
+   "share": 0.0011367074951650462
+  },
+  {
+   "week": "2026-W18",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W19",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  }
+ ],
+ "topSpeakers": [
+  {
+   "speaker": "吉川沙織",
+   "group": "立憲民主・無所属",
+   "chars": 432
+  }
+ ],
+ "speeches": [
+  {
+   "date": "2026-04-24",
+   "house": "参議院",
+   "meeting": "本会議",
+   "speaker": "吉川沙織",
+   "group": "立憲民主・無所属",
+   "chars": 432,
+   "excerpt": "○吉川沙織君 ただいま議題となりました株式会社海外通信・放送・郵便事業支援機構法の一部を改正する法律案につきまして、総務委員会における審査の経過と結果を御報告申し上げます。 本法律案は、最近の我が国経済をめぐる状況に鑑み、我が国及び海外にお",
+   "url": "https://kokkai.ndl.go.jp/txt/122115254X01020260424/34"
+  }
+ ],
+ "speechesTruncated": false
+}

@@ -1,0 +1,81 @@
+{
+ "id": "t0264",
+ "name": "裁判所職員定員法改正",
+ "category": "司法・憲法・人権",
+ "description": "裁判所事務の合理化・効率化に伴い裁判官以外の職員定員を削減する法改正の審議。",
+ "firstSeen": "2026-04-24",
+ "totalChars": 389,
+ "sessionShare": 0.0001866938628591997,
+ "weekly": [
+  {
+   "week": "2026-W08",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W09",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W17",
+   "chars": 389,
+   "share": 0.0010235629991185255
+  },
+  {
+   "week": "2026-W18",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W19",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  }
+ ],
+ "topSpeakers": [
+  {
+   "speaker": "伊藤孝江",
+   "group": "公明党",
+   "chars": 389
+  }
+ ],
+ "speeches": [
+  {
+   "date": "2026-04-24",
+   "house": "参議院",
+   "meeting": "本会議",
+   "speaker": "伊藤孝江",
+   "group": "公明党",
+   "chars": 389,
+   "excerpt": "○伊藤孝江君 ただいま議題となりました法律案につきまして、法務委員会における審査の経過と結果を御報告申し上げます。 本法律案は、裁判所の事務を合理化し、及び効率化すること等に伴い、裁判官以外の裁判所の職員の員数を百二十六人減少しようとするも",
+   "url": "https://kokkai.ndl.go.jp/txt/122115254X01020260424/19"
+  }
+ ],
+ "speechesTruncated": false
+}
