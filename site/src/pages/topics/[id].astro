@@ -1,0 +1,84 @@
+---
+import { readFileSync, readdirSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import Layout from "../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+  const dir = fileURLToPath(new URL("../../../../data/topic-details/", import.meta.url));
+  return readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => {
+      const detail = JSON.parse(readFileSync(dir + f, "utf8"));
+      return { params: { id: detail.id }, props: { detail } };
+    });
+}
+
+const { detail } = Astro.props;
+const pct = (x: number) => (x * 100).toFixed(1) + "%";
+---
+
+<Layout title={detail.name} description={detail.description}>
+  <h1>{detail.name}</h1>
+  <p>{detail.description}</p>
+  <p>
+    会期全体の議論量に占める割合: <strong>{pct(detail.sessionShare)}</strong>
+    （{detail.totalChars.toLocaleString()}文字）
+  </p>
+
+  <h2>週ごとの推移（全議論に占める割合）</h2>
+  <div id="trend"></div>
+  <script is:inline type="application/json" id="weekly-data" set:html={JSON.stringify(detail.weekly)} />
+
+  <h2>主な発言者</h2>
+  <table>
+    <thead><tr><th>発言者</th><th>会派</th><th>文字数</th></tr></thead>
+    <tbody>
+      {detail.topSpeakers.map((s: any) => (
+        <tr>
+          <td>{s.speaker}</td>
+          <td>{s.group}</td>
+          <td>{s.chars.toLocaleString()}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <h2>発言一覧{detail.speechesTruncated && "（最新200件）"}</h2>
+  <table>
+    <thead><tr><th>日付</th><th>会議</th><th>発言者</th><th>内容（冒頭）</th></tr></thead>
+    <tbody>
+      {detail.speeches.map((s: any) => (
+        <tr>
+          <td>{s.date}</td>
+          <td>{s.house} {s.meeting}</td>
+          <td>{s.speaker}（{s.group}）</td>
+          <td>
+            {s.excerpt}…
+            <a href={s.url} target="_blank" rel="noopener">原文</a>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>
+
+<style>
+  #trend {
+    width: 100%;
+    height: 300px;
+  }
+</style>
+
+<script>
+  import * as echarts from "echarts";
+
+  const weekly = JSON.parse(document.getElementById("weekly-data")!.textContent!);
+  const chart = echarts.init(document.getElementById("trend"));
+  chart.setOption({
+    xAxis: { type: "category", data: weekly.map((w: any) => w.week.slice(5)) },
+    yAxis: { type: "value", axisLabel: { formatter: (v: number) => (v * 100).toFixed(0) + "%" } },
+    tooltip: { trigger: "axis", valueFormatter: (v: any) => (Number(v) * 100).toFixed(1) + "%" },
+    series: [{ type: "bar", data: weekly.map((w: any) => w.share) }],
+  });
+  addEventListener("resize", () => chart.resize());
+</script>
