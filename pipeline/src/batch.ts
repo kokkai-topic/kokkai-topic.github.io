@@ -6,11 +6,12 @@ import { normalizeMeeting } from "./normalize";
 import type { AssignmentFile, BatchInput, Meta } from "./types";
 
 async function main() {
+  await mkdir("cache/raw", { recursive: true });
   await mkdir("cache/llm/input", { recursive: true });
   await mkdir("cache/llm/output", { recursive: true });
   await mkdir("data/assignments", { recursive: true });
   const meta: Meta = JSON.parse(await readFile("data/meta.json", "utf8"));
-  const rawFiles = (await readdir("cache/raw")).filter((f) => f.endsWith(".json"));
+  const rawFiles = (await readdir("cache/raw")).filter((f) => f.endsWith(".json")).sort();
   const queued: string[] = [];
 
   for (const f of rawFiles) {
@@ -21,6 +22,12 @@ async function main() {
     const asgPath = `data/assignments/${m.issueID}.json`;
     if (existsSync(asgPath)) {
       const asg: AssignmentFile = JSON.parse(await readFile(asgPath, "utf8"));
+      // expected は割当ファイル作成時の発言数。会議録の事後修正でraw再取得すると食い違うことがある
+      if (asg.expected !== speeches.length) {
+        console.warn(
+          `WARN: ${m.issueID}: 発言数が変化しています (expected ${asg.expected} → raw ${speeches.length})。再分類するには割当ファイルを削除してください`,
+        );
+      }
       if (asg.assignments.length >= asg.expected) continue; // 分類完了済み
     } else {
       const asg: AssignmentFile = {
