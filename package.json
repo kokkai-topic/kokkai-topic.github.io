@@ -1,0 +1,19 @@
+{
+  "name": "kokkai-topics",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx pipeline/src/fetch.ts",
+    "batch": "tsx pipeline/src/batch.ts",
+    "ingest": "tsx pipeline/src/ingest.ts",
+    "aggregate": "tsx pipeline/src/aggregate.ts",
+    "merge-topics": "tsx pipeline/src/merge-topics.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  }
+}

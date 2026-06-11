@@ -1,0 +1,5 @@
+node_modules/
+cache/
+site/dist/
+site/.astro/
+site/public/data/
