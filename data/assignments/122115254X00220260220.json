@@ -17,6 +17,30 @@
   {
    "speechId": "122115254X00220260220_010",
    "topicId": "procedural"
+  },
+  {
+   "speechId": "122115254X00220260220_001",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122115254X00220260220_002",
+   "topicId": "other"
+  },
+  {
+   "speechId": "122115254X00220260220_004",
+   "topicId": "other"
+  },
+  {
+   "speechId": "122115254X00220260220_006",
+   "topicId": "t0005"
+  },
+  {
+   "speechId": "122115254X00220260220_008",
+   "topicId": "other"
+  },
+  {
+   "speechId": "122115254X00220260220_009",
+   "topicId": "procedural"
   }
  ]
 }
