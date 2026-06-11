@@ -1,6 +1,9 @@
 {
-  "sessionStartDate": "2026-01-01",
-  "sessionLabel": "2026年通常国会",
-  "fetchWindowDays": 45,
-  "ingestedBatches": []
+ "sessionStartDate": "2026-02-18",
+ "sessionLabel": "第221回国会（2026年通常国会）",
+ "fetchWindowDays": 45,
+ "ingestedBatches": [
+  "122104024X02420260526-00",
+  "122104127X00120260527-00"
+ ]
 }
