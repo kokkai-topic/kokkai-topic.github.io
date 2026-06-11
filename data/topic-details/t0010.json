@@ -5,7 +5,7 @@
  "description": "自衛隊明記・2項削除等の憲法9条改正論議と国会発議に向けた進め方を巡る議論。",
  "firstSeen": "2026-02-24",
  "totalChars": 29750,
- "sessionShare": 0.020237723524806007,
+ "sessionShare": 0.01939293275899832,
  "weekly": [
   {
    "week": "2026-W08",
@@ -19,6 +19,11 @@
   },
   {
    "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W19",
    "chars": 0,
    "share": 0
   },
