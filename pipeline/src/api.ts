@@ -24,7 +24,7 @@ export interface RawMeeting {
 
 interface ApiResponse {
   numberOfRecords: number;
-  nextRecordPosition: number | null;
+  nextRecordPosition: number | null | undefined;
   meetingRecord?: RawMeeting[];
   message?: string;
 }
@@ -45,7 +45,8 @@ export async function* fetchMeetings(
     const body = (await res.json()) as ApiResponse;
     if (body.message) throw new Error(`API message: ${body.message}`);
     for (const m of body.meetingRecord ?? []) yield m;
-    if (body.nextRecordPosition == null) break;
+    // null / undefined / 0 はいずれも「次ページなし」。startRecordの正当な値は1以上なので0で続行すると無限ループになる
+    if (!body.nextRecordPosition) break;
     start = body.nextRecordPosition;
     if (delayMs > 0) await sleep(delayMs);
   }

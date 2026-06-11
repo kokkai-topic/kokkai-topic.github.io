@@ -37,4 +37,25 @@ describe("fetchMeetings", () => {
       }
     }).rejects.toThrow("500");
   });
+
+  it("API messageフィールドがある場合は例外を投げる", async () => {
+    const fetchImpl = vi
+      .fn()
+      .mockResolvedValue(makeRes({ numberOfRecords: 0, nextRecordPosition: null, message: "Invalid parameter" }));
+    await expect(async () => {
+      for await (const _ of fetchMeetings("2026-06-01", "2026-06-07", fetchImpl, 0)) {
+        /* no-op */
+      }
+    }).rejects.toThrow("Invalid parameter");
+  });
+
+  it("nextRecordPosition が 0 のとき無限ループせず終了する", async () => {
+    const fetchImpl = vi
+      .fn()
+      .mockResolvedValueOnce(makeRes({ numberOfRecords: 10, nextRecordPosition: 0, meetingRecord: [m("A")] }));
+    const out: RawMeeting[] = [];
+    for await (const mt of fetchMeetings("2026-06-01", "2026-06-07", fetchImpl, 0)) out.push(mt);
+    expect(out.map((x) => x.issueID)).toEqual(["A"]);
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
 });
