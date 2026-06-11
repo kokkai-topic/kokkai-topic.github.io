@@ -1,0 +1,58 @@
+{
+ "issueId": "122104601X01020260512",
+ "expected": 188,
+ "assignments": [
+  {
+   "speechId": "122104601X01020260512_002",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_003",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_017",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_027",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_035",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_061",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_062",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_088",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_101",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_102",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_146",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_160",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104601X01020260512_178",
+   "topicId": "procedural"
+  }
+ ]
+}

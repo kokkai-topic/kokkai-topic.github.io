@@ -5,7 +5,7 @@
  "description": "複数年度予算・基金・補助金等の政策効果を定量データで評価しPDCAを回すEBPM強化を巡る議論。",
  "firstSeen": "2026-03-02",
  "totalChars": 7683,
- "sessionShare": 0.011830501845484375,
+ "sessionShare": 0.011705323842722375,
  "weekly": [
   {
    "week": "2026-W08",
@@ -23,7 +23,22 @@
    "share": 0.023995952264202213
   },
   {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
    "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
    "chars": 0,
    "share": 0
   }

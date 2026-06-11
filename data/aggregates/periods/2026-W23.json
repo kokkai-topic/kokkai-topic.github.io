@@ -1,0 +1,28 @@
+{
+ "key": "2026-W23",
+ "label": "6/1の週",
+ "totalChars": 819,
+ "topics": [
+  {
+   "id": "t0102",
+   "name": "令和8年度補正予算（第1号）",
+   "category": "財政・税制",
+   "chars": 819,
+   "share": 1
+  }
+ ],
+ "byParty": {
+  "自由民主党・無所属の会": {
+   "totalChars": 819,
+   "topics": [
+    {
+     "id": "t0102",
+     "name": "令和8年度補正予算（第1号）",
+     "category": "財政・税制",
+     "chars": 819,
+     "share": 1
+    }
+   ]
+  }
+ }
+}

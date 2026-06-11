@@ -1,0 +1,28 @@
+{
+ "key": "2026-W21",
+ "label": "5/18の週",
+ "totalChars": 2417,
+ "topics": [
+  {
+   "id": "t0104",
+   "name": "北朝鮮拉致問題の解決",
+   "category": "外交・安全保障",
+   "chars": 2417,
+   "share": 1
+  }
+ ],
+ "byParty": {
+  "自由民主党・無所属の会": {
+   "totalChars": 2417,
+   "topics": [
+    {
+     "id": "t0104",
+     "name": "北朝鮮拉致問題の解決",
+     "category": "外交・安全保障",
+     "chars": 2417,
+     "share": 1
+    }
+   ]
+  }
+ }
+}

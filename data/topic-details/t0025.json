@@ -5,7 +5,7 @@
  "description": "GPIF的ノウハウを活用した政府保有資金（現預金・対外証券投資等）の積極運用（ジャパン・ファンド構想）を巡る議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 3451,
- "sessionShare": 0.005313947919922762,
+ "sessionShare": 0.005257721278307291,
  "weekly": [
   {
    "week": "2026-W08",
@@ -23,7 +23,22 @@
    "share": 0
   },
   {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
    "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
    "chars": 0,
    "share": 0
   }

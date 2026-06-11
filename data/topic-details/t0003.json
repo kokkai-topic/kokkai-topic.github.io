@@ -5,7 +5,7 @@
  "description": "参議院審議における手話通訳・字幕付与など情報アクセシビリティの施策推進を巡る議論。",
  "firstSeen": "2026-02-19",
  "totalChars": 647,
- "sessionShare": 0.000996268995708498,
+ "sessionShare": 0.000985727518709017,
  "weekly": [
   {
    "week": "2026-W08",
@@ -23,7 +23,22 @@
    "share": 0
   },
   {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
    "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
    "chars": 0,
    "share": 0
   }

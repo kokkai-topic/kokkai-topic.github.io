@@ -5,7 +5,7 @@
  "description": "AI・半導体・造船・宇宙等の戦略分野への官民投資を軸とした経済成長計画を巡る議論。",
  "firstSeen": "2026-02-24",
  "totalChars": 34595,
- "sessionShare": 0.05327036461597449,
+ "sessionShare": 0.05270671330716915,
  "weekly": [
   {
    "week": "2026-W08",
@@ -23,7 +23,22 @@
    "share": 0.03488985848540972
   },
   {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
    "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
    "chars": 0,
    "share": 0
   }

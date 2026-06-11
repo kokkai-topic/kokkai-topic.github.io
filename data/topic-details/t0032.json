@@ -5,7 +5,7 @@
  "description": "日本の回復期リハビリ・補装具・リハビリロボット技術を国家戦略として国際展開・産業化する議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 1270,
- "sessionShare": 0.0019555821090414104,
+ "sessionShare": 0.0019348901835555665,
  "weekly": [
   {
    "week": "2026-W08",
@@ -23,7 +23,22 @@
    "share": 0
   },
   {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
    "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
    "chars": 0,
    "share": 0
   }

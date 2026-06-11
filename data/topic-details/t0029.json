@@ -5,7 +5,7 @@
  "description": "研究開発税制（1兆円超の減税）による適用企業名の公表と企業団体献金との関係を巡る透明化議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 3052,
- "sessionShare": 0.00469955637542865,
+ "sessionShare": 0.00464983058284377,
  "weekly": [
   {
    "week": "2026-W08",
@@ -23,7 +23,22 @@
    "share": 0
   },
   {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
    "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
    "chars": 0,
    "share": 0
   }

@@ -1,0 +1,14 @@
+{
+ "issueId": "122114292X00220260520",
+ "expected": 2,
+ "assignments": [
+  {
+   "speechId": "122114292X00220260520_001",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122114292X00220260520_002",
+   "topicId": "procedural"
+  }
+ ]
+}

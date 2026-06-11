@@ -1,0 +1,28 @@
+{
+ "key": "2026-W20",
+ "label": "5/11の週",
+ "totalChars": 1051,
+ "topics": [
+  {
+   "id": "t0078",
+   "name": "米価高騰・米政策",
+   "category": "農林水産",
+   "chars": 1051,
+   "share": 1
+  }
+ ],
+ "byParty": {
+  "自由民主党・無所属の会": {
+   "totalChars": 1051,
+   "topics": [
+    {
+     "id": "t0078",
+     "name": "米価高騰・米政策",
+     "category": "農林水産",
+     "chars": 1051,
+     "share": 1
+    }
+   ]
+  }
+ }
+}

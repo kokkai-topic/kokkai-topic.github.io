@@ -5,7 +5,7 @@
  "description": "国会議員の歳費・期末手当の支給水準を巡る法改正の議論。",
  "firstSeen": "2026-05-26",
  "totalChars": 240,
- "sessionShare": 0.0003695588237558571,
+ "sessionShare": 0.000365648538624674,
  "weekly": [
   {
    "week": "2026-W08",
@@ -23,9 +23,24 @@
    "share": 0
   },
   {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
    "week": "2026-W22",
    "chars": 240,
-   "share": 0.39867109634551495
+   "share": 0.0736196319018405
+  },
+  {
+   "week": "2026-W23",
+   "chars": 0,
+   "share": 0
   }
  ],
  "topSpeakers": [
