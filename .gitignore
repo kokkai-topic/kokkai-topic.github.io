@@ -3,3 +3,8 @@ cache/
 site/dist/
 site/.astro/
 site/public/data/
+.env
+.env.local
+.env.*.local
+Thumbs.db
+desktop.ini
