@@ -1,0 +1,91 @@
+{
+ "id": "t0502",
+ "name": "防衛特別法人税と税制・外資規制",
+ "category": "財政・税制",
+ "description": "防衛費増額財源としての防衛特別法人税の必要性と外資系企業の日本進出に与える影響を巡る議論。",
+ "firstSeen": "2026-04-10",
+ "totalChars": 592,
+ "sessionShare": 0.00008938535339450693,
+ "weekly": [
+  {
+   "week": "2026-W08",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W09",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W15",
+   "chars": 592,
+   "share": 0.0014594293434047106
+  },
+  {
+   "week": "2026-W16",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W17",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W18",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W19",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W20",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W21",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W22",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  }
+ ],
+ "topSpeakers": [
+  {
+   "speaker": "萩原佳",
+   "group": "日本維新の会",
+   "chars": 592
+  }
+ ],
+ "speeches": [
+  {
+   "date": "2026-04-10",
+   "house": "衆議院",
+   "meeting": "財務金融委員会",
+   "speaker": "萩原佳",
+   "group": "日本維新の会",
+   "chars": 592,
+   "excerpt": "○萩原委員 まずは、防衛特別法人税、これの導入に関しては必要なものであるというふうには考えていますので、それに対して何か言うということはないんですけれども、税率ですね。 進出に当たりのお話をしていただいたと思いますが、それは恐らく日本企業へ",
+   "url": "https://kokkai.ndl.go.jp/txt/122104376X00620260410/75"
+  }
+ ],
+ "speechesTruncated": false
+}
