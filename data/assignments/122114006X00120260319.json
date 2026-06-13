@@ -1,0 +1,10 @@
+{
+ "issueId": "122114006X00120260319",
+ "expected": 15,
+ "assignments": [
+  {
+   "speechId": "122114006X00120260319_006",
+   "topicId": "procedural"
+  }
+ ]
+}

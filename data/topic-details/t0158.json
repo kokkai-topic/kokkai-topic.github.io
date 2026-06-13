@@ -5,7 +5,7 @@
  "description": "災害時の医療情報共有基盤整備と訪問診療等のBCP策定支援を巡る議論。",
  "firstSeen": "2026-05-12",
  "totalChars": 10283,
- "sessionShare": 0.0010354980576481295,
+ "sessionShare": 0.0010222497128495288,
  "weekly": [
   {
    "week": "2026-W08",
@@ -19,6 +19,11 @@
   },
   {
    "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W12",
    "chars": 0,
    "share": 0
   },
