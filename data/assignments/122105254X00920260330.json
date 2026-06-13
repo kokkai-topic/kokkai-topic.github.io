@@ -13,6 +13,34 @@
   {
    "speechId": "122105254X00920260330_009",
    "topicId": "procedural"
+  },
+  {
+   "speechId": "122105254X00920260330_002",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105254X00920260330_003",
+   "topicId": "t0044"
+  },
+  {
+   "speechId": "122105254X00920260330_005",
+   "topicId": "t0044"
+  },
+  {
+   "speechId": "122105254X00920260330_006",
+   "topicId": "t0044"
+  },
+  {
+   "speechId": "122105254X00920260330_007",
+   "topicId": "t0044"
+  },
+  {
+   "speechId": "122105254X00920260330_008",
+   "topicId": "t0044"
+  },
+  {
+   "speechId": "122105254X00920260330_010",
+   "topicId": "procedural"
   }
  ]
 }
