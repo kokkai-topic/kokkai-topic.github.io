@@ -1,0 +1,26 @@
+{
+ "issueId": "122114319X00520260402",
+ "expected": 161,
+ "assignments": [
+  {
+   "speechId": "122114319X00520260402_003",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122114319X00520260402_015",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122114319X00520260402_018",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122114319X00520260402_026",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122114319X00520260402_032",
+   "topicId": "procedural"
+  }
+ ]
+}
