@@ -5,7 +5,7 @@
  "description": "安保三文書改定において非核三原則の堅持を明記すべきかを巡る議論。",
  "firstSeen": "2026-05-12",
  "totalChars": 2297,
- "sessionShare": 0.0005222974630713865,
+ "sessionShare": 0.000495947245204134,
  "weekly": [
   {
    "week": "2026-W08",
@@ -19,6 +19,11 @@
   },
   {
    "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W16",
    "chars": 0,
    "share": 0
   },

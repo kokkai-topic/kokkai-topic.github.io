@@ -5,7 +5,7 @@
  "description": "CPTPPの首脳会合開催・常設事務局誘致・高水準維持による日本主導の自由貿易体制強化を巡る議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 2683,
- "sessionShare": 0.0006100670846410666,
+ "sessionShare": 0.0005792888371278587,
  "weekly": [
   {
    "week": "2026-W08",
@@ -19,6 +19,11 @@
   },
   {
    "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W16",
    "chars": 0,
    "share": 0
   },

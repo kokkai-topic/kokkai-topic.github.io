@@ -5,7 +5,7 @@
  "description": "JICAが主導する母子手帳の世界普及・産科検診DX支援など開発途上国の母子保健改善への日本の貢献を巡る議論。",
  "firstSeen": "2026-05-08",
  "totalChars": 1682,
- "sessionShare": 0.00038245726290207755,
+ "sessionShare": 0.0003631620663619301,
  "weekly": [
   {
    "week": "2026-W08",
@@ -19,6 +19,11 @@
   },
   {
    "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W16",
    "chars": 0,
    "share": 0
   },
