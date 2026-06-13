@@ -5,7 +5,7 @@
  "description": "男系継承の維持を前提とした皇室典範改正と安定的な皇位継承策を巡る議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 542,
- "sessionShare": 0.0000628689053410035,
+ "sessionShare": 0.00006205767447910197,
  "weekly": [
   {
    "week": "2026-W08",
@@ -19,6 +19,11 @@
   },
   {
    "week": "2026-W10",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W13",
    "chars": 0,
    "share": 0
   },
