@@ -25,6 +25,50 @@
   {
    "speechId": "122104183X00220260409_015",
    "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X00220260409_001",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X00220260409_002",
+   "topicId": "t0110"
+  },
+  {
+   "speechId": "122104183X00220260409_004",
+   "topicId": "t0110"
+  },
+  {
+   "speechId": "122104183X00220260409_006",
+   "topicId": "t0010"
+  },
+  {
+   "speechId": "122104183X00220260409_008",
+   "topicId": "t0113"
+  },
+  {
+   "speechId": "122104183X00220260409_010",
+   "topicId": "t0010"
+  },
+  {
+   "speechId": "122104183X00220260409_011",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X00220260409_012",
+   "topicId": "t0010"
+  },
+  {
+   "speechId": "122104183X00220260409_014",
+   "topicId": "t0113"
+  },
+  {
+   "speechId": "122104183X00220260409_016",
+   "topicId": "t0010"
+  },
+  {
+   "speechId": "122104183X00220260409_017",
+   "topicId": "procedural"
   }
  ]
 }
