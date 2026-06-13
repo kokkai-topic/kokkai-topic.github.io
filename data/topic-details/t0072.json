@@ -4,8 +4,8 @@
  "category": "教育・子育て",
  "description": "高等学校就学支援金制度の所得制限撤廃と義務標準法改正（中学三十五人学級化）の年度内成立と公立高校への影響を巡る議論。",
  "firstSeen": "2026-03-03",
- "totalChars": 112037,
- "sessionShare": 0.012827962501134956,
+ "totalChars": 205170,
+ "sessionShare": 0.022293773629476765,
  "weekly": [
   {
    "week": "2026-W08",
@@ -24,8 +24,8 @@
   },
   {
    "week": "2026-W13",
-   "chars": 0,
-   "share": 0
+   "chars": 93133,
+   "share": 0.1600487365613572
   },
   {
    "week": "2026-W14",
@@ -82,52 +82,52 @@
   {
    "speaker": "松本洋平",
    "group": "自由民主党・無所属の会",
-   "chars": 25625
+   "chars": 48902
   },
   {
    "speaker": "望月禎",
    "group": "政府・不明",
-   "chars": 15958
+   "chars": 30877
   },
   {
    "speaker": "古賀千景",
    "group": "立憲民主・無所属",
-   "chars": 12267
+   "chars": 16230
   },
   {
    "speaker": "吉良よし子",
    "group": "日本共産党",
-   "chars": 7007
+   "chars": 12620
+  },
+  {
+   "speaker": "勝部賢志",
+   "group": "立憲民主・無所属",
+   "chars": 12618
+  },
+  {
+   "speaker": "下野六太",
+   "group": "公明党",
+   "chars": 11144
+  },
+  {
+   "speaker": "金子道仁",
+   "group": "日本維新の会",
+   "chars": 10458
+  },
+  {
+   "speaker": "後藤翔太",
+   "group": "参政党",
+   "chars": 8604
+  },
+  {
+   "speaker": "宮本和宏",
+   "group": "自由民主党・無所属の会",
+   "chars": 7212
   },
   {
    "speaker": "斎藤嘉隆",
    "group": "立憲民主・無所属",
    "chars": 6982
-  },
-  {
-   "speaker": "水野孝一",
-   "group": "国民民主党・新緑風会",
-   "chars": 5682
-  },
-  {
-   "speaker": "下野六太",
-   "group": "公明党",
-   "chars": 5306
-  },
-  {
-   "speaker": "勝部賢志",
-   "group": "立憲民主・無所属",
-   "chars": 4768
-  },
-  {
-   "speaker": "後藤翔太",
-   "group": "参政党",
-   "chars": 4370
-  },
-  {
-   "speaker": "蝦名喜之",
-   "group": "政府・不明",
-   "chars": 3114
   }
  ],
  "speeches": [
