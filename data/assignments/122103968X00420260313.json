@@ -1,5 +1,22 @@
 {
  "issueId": "122103968X00420260313",
  "expected": 4,
- "assignments": []
+ "assignments": [
+  {
+   "speechId": "122103968X00420260313_001",
+   "topicId": "t0377"
+  },
+  {
+   "speechId": "122103968X00420260313_002",
+   "topicId": "t0377"
+  },
+  {
+   "speechId": "122103968X00420260313_003",
+   "topicId": "t0377"
+  },
+  {
+   "speechId": "122103968X00420260313_004",
+   "topicId": "t0377"
+  }
+ ]
 }
