@@ -5,6 +5,26 @@
   {
    "speechId": "122105124X00320260309_004",
    "topicId": "procedural"
+  },
+  {
+   "speechId": "122105124X00320260309_001",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105124X00320260309_002",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105124X00320260309_003",
+   "topicId": "t0072"
+  },
+  {
+   "speechId": "122105124X00320260309_005",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105124X00320260309_006",
+   "topicId": "procedural"
   }
  ]
 }
