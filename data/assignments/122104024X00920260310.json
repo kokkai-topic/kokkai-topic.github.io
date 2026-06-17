@@ -1,0 +1,18 @@
+{
+ "issueId": "122104024X00920260310",
+ "expected": 6,
+ "assignments": [
+  {
+   "speechId": "122104024X00920260310_001",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104024X00920260310_003",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104024X00920260310_005",
+   "topicId": "procedural"
+  }
+ ]
+}

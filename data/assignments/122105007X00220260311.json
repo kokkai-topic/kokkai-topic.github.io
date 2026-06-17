@@ -1,0 +1,34 @@
+{
+ "issueId": "122105007X00220260311",
+ "expected": 78,
+ "assignments": [
+  {
+   "speechId": "122105007X00220260311_002",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105007X00220260311_004",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105007X00220260311_005",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105007X00220260311_023",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105007X00220260311_049",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105007X00220260311_053",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122105007X00220260311_075",
+   "topicId": "procedural"
+  }
+ ]
+}
