@@ -5,7 +5,7 @@
  "description": "入管法改正によるETA電子渡航認証導入・手数料改定と不法滞在者の送還強化を巡る議論。",
  "firstSeen": "2026-04-15",
  "totalChars": 13563,
- "sessionShare": 0.0011074917822035714,
+ "sessionShare": 0.0011056678705128658,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

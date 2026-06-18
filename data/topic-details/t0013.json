@@ -5,7 +5,7 @@
  "description": "防衛費GDP比2%達成・安全保障三文書前倒し改定・防衛装備移転三原則見直し等を巡る議論。",
  "firstSeen": "2026-02-25",
  "totalChars": 168892,
- "sessionShare": 0.0137909387362623,
+ "sessionShare": 0.01376822664503863,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

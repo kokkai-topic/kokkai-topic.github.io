@@ -5,7 +5,7 @@
  "description": "教職員による児童生徒への性暴力の初犯防止策強化と、免許失効者DBSの活用率向上・日本版DBS施行を巡る議論。",
  "firstSeen": "2026-05-21",
  "totalChars": 7652,
- "sessionShare": 0.000624826890615773,
+ "sessionShare": 0.0006237978725329536,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

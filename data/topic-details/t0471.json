@@ -5,7 +5,7 @@
  "description": "育成就労・特定技能制度による外国人材受入れと偽装就労防止を巡る議論。",
  "firstSeen": "2026-04-15",
  "totalChars": 35804,
- "sessionShare": 0.0029235888645592176,
+ "sessionShare": 0.002918774049682419,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

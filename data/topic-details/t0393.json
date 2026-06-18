@@ -5,7 +5,7 @@
  "description": "能登半島地震の復興財政支援・公費解体・震災遺構保存を巡る議論。",
  "firstSeen": "2026-03-05",
  "totalChars": 37401,
- "sessionShare": 0.0030539924903189393,
+ "sessionShare": 0.0030489629156566908,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "米国の相互関税・通商措置と日米通商交渉・自国第一主義への対応を巡る議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 91202,
- "sessionShare": 0.007447133047300016,
+ "sessionShare": 0.007434868475006591,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

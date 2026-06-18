@@ -5,7 +5,7 @@
  "description": "主権者教育・法教育など市民教育の推進を巡る議論。",
  "firstSeen": "2026-04-02",
  "totalChars": 4943,
- "sessionShare": 0.000403622493506765,
+ "sessionShare": 0.0004029577736448497,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

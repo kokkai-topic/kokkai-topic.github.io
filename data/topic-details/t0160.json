@@ -5,7 +5,7 @@
  "description": "消防・自衛隊の活動環境整備と消防職員の安全管理・殉職防止を巡る議論。",
  "firstSeen": "2026-05-12",
  "totalChars": 12822,
- "sessionShare": 0.00104698515309402,
+ "sessionShare": 0.001045260888867947,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

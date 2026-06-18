@@ -5,7 +5,7 @@
  "description": "食料自給率向上・農業の生産基盤強化・農業所得確保と構造転換目標を巡る議論。",
  "firstSeen": "2026-02-24",
  "totalChars": 171498,
- "sessionShare": 0.014003732630269711,
+ "sessionShare": 0.013980670091957198,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

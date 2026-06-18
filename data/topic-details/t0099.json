@@ -5,7 +5,7 @@
  "description": "LGBT理解増進法に基づく学校教育現場での多様性理解推進の内容と範囲を巡る議論。",
  "firstSeen": "2026-03-03",
  "totalChars": 3798,
- "sessionShare": 0.0003101270949501706,
+ "sessionShare": 0.00030961635126504935,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "災害時のAI誤情報・フェイク情報への対策と情報の正確性確保を巡る議論。",
  "firstSeen": "2026-05-12",
  "totalChars": 9619,
- "sessionShare": 0.0007854430032453111,
+ "sessionShare": 0.0007841494688832306,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

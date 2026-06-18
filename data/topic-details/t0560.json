@@ -5,7 +5,7 @@
  "description": "スマホソフトウェア競争促進法の実効性と外国系スマホ決済への規制を巡る議論。",
  "firstSeen": "2026-03-26",
  "totalChars": 4759,
- "sessionShare": 0.0003885979054417751,
+ "sessionShare": 0.0003879579293497551,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

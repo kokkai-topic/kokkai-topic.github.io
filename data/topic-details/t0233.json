@@ -5,7 +5,7 @@
  "description": "総務省フロントヤード改革とデジタル庁窓口DXSaaSの連携によるBPR伴走支援・全国横展開の進め方を巡る議論。",
  "firstSeen": "2026-04-28",
  "totalChars": 27261,
- "sessionShare": 0.00222600703934613,
+ "sessionShare": 0.002222341061568328,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "家畜伝染病予防法改正と高病原性鳥インフルエンザ等の防疫体制強化を巡る議論。",
  "firstSeen": "2026-05-12",
  "totalChars": 70473,
- "sessionShare": 0.005754498884261026,
+ "sessionShare": 0.005745021885914119,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "日本のWPS国家行動計画の国内実施とジェンダー次世代ネットワークを巡る議論。",
  "firstSeen": "2026-03-06",
  "totalChars": 5388,
- "sessionShare": 0.00043995913312046324,
+ "sessionShare": 0.0004392345709889642,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

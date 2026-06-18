@@ -5,7 +5,7 @@
  "description": "利根川・首都圏など各水系の治水対策とダム整備・中止ダム再調査を巡る議論。",
  "firstSeen": "2026-03-06",
  "totalChars": 13157,
- "sessionShare": 0.0010743397020166916,
+ "sessionShare": 0.001072570387992168,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

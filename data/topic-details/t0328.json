@@ -5,7 +5,7 @@
  "description": "学校施設の老朽化対策・整備交付金と専門高校等の施設設備整備を巡る議論。",
  "firstSeen": "2026-04-21",
  "totalChars": 25455,
- "sessionShare": 0.002078537441273458,
+ "sessionShare": 0.002075114328976259,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

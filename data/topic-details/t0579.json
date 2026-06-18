@@ -5,7 +5,7 @@
  "description": "下水道老朽化対策と中山間地域を含む水道インフラの維持・更新を巡る議論。",
  "firstSeen": "2026-03-24",
  "totalChars": 9874,
- "sessionShare": 0.0008062651225745089,
+ "sessionShare": 0.0008049372965748019,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

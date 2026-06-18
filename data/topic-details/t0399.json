@@ -5,7 +5,7 @@
  "description": "ドクターヘリの全国整備・運航支援と整備士不足による安定運航確保を巡る議論。",
  "firstSeen": "2026-03-05",
  "totalChars": 14624,
- "sessionShare": 0.0011941281296870183,
+ "sessionShare": 0.001192161537888384,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

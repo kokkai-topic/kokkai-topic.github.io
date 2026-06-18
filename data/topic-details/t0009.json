@@ -5,7 +5,7 @@
  "description": "在留外国人の増加に伴うルール整備と秩序ある共生社会の構築を巡る議論。",
  "firstSeen": "2026-02-24",
  "totalChars": 67204,
- "sessionShare": 0.005487567479997701,
+ "sessionShare": 0.005478530086997466,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

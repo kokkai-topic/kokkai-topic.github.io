@@ -5,7 +5,7 @@
  "description": "放課後等デイ等の障害児通所支援の供給体制と質確保・18歳の壁を巡る議論。",
  "firstSeen": "2026-04-23",
  "totalChars": 9392,
- "sessionShare": 0.000766907234273829,
+ "sessionShare": 0.0007656442261930868,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

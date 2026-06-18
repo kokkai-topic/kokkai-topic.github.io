@@ -5,7 +5,7 @@
  "description": "プッシュ型支援・分散備蓄強化と支援物資のラストワンマイル課題を巡る議論。",
  "firstSeen": "2026-04-01",
  "totalChars": 9127,
- "sessionShare": 0.0007452685612454469,
+ "sessionShare": 0.0007440411895724343,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

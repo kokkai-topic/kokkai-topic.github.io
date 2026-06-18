@@ -5,7 +5,7 @@
  "description": "自衛隊の訓練事故・航空機整備事故の再発防止と安全管理体制を巡る議論。",
  "firstSeen": "2026-04-21",
  "totalChars": 3983,
- "sessionShare": 0.0003252333383850789,
+ "sessionShare": 0.00032469771645305204,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

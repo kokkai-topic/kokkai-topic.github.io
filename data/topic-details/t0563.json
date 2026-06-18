@@ -5,7 +5,7 @@
  "description": "水俣病の認定基準・訴訟救済と未認定被害者の健康調査を巡る議論。",
  "firstSeen": "2026-03-24",
  "totalChars": 9753,
- "sessionShare": 0.0007963848228143797,
+ "sessionShare": 0.0007950732685329191,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "外務公務員の在勤基本手当・配偶者手当・子女手当等を改定する法律案の審議。",
  "firstSeen": "2026-03-06",
  "totalChars": 47103,
- "sessionShare": 0.0038462128892674794,
+ "sessionShare": 0.0038398786186512957,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

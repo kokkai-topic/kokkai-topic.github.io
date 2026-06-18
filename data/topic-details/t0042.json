@@ -5,7 +5,7 @@
  "description": "公立高校の質向上・教育環境整備と専門高校への重点投資を巡る議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 46392,
- "sessionShare": 0.003788155921255481,
+ "sessionShare": 0.0037819172637936203,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

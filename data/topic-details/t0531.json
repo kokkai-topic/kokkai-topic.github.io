@@ -5,7 +5,7 @@
  "description": "国立劇場再整備や国立博物館など国立文化施設の整備・運営費政策を巡る議論。",
  "firstSeen": "2026-04-02",
  "totalChars": 13905,
- "sessionShare": 0.001135417918715672,
+ "sessionShare": 0.0011335480158874438,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

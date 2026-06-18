@@ -5,7 +5,7 @@
  "description": "北東アジア地域における多国間安全保障対話・協力機構の創設を巡る議論。",
  "firstSeen": "2026-03-06",
  "totalChars": 1811,
- "sessionShare": 0.0001478778749222641,
+ "sessionShare": 0.0001476343370566099,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "NHK受信料・予算・経営改革・国際放送ガバナンスなど公共放送制度の将来像を巡る議論。",
  "firstSeen": "2026-04-02",
  "totalChars": 186519,
- "sessionShare": 0.015230277941814344,
+ "sessionShare": 0.015205195424330107,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }

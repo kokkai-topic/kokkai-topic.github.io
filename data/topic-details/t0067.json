@@ -5,7 +5,7 @@
  "description": "公金受取口座を活用したプッシュ型行政・デジタル給付申請を巡る議論。",
  "firstSeen": "2026-03-02",
  "totalChars": 6246,
- "sessionShare": 0.0005100194405104701,
+ "sessionShare": 0.0005091794971041334,
  "weekly": [
   {
    "week": "2026-W08",
@@ -84,6 +84,11 @@
   },
   {
    "week": "2026-W23",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W24",
    "chars": 0,
    "share": 0
   }
