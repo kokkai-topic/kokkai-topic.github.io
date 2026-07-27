@@ -1,0 +1,110 @@
+{
+ "issueId": "122104183X01120260625",
+ "expected": 26,
+ "assignments": [
+  {
+   "speechId": "122104183X01120260625_003",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_005",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_007",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_009",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_011",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_013",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_022",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_001",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_002",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_004",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_006",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_008",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_010",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_012",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_014",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_015",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_016",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_017",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_018",
+   "topicId": "t0010"
+  },
+  {
+   "speechId": "122104183X01120260625_019",
+   "topicId": "t0010"
+  },
+  {
+   "speechId": "122104183X01120260625_020",
+   "topicId": "procedural"
+  },
+  {
+   "speechId": "122104183X01120260625_021",
+   "topicId": "t0010"
+  },
+  {
+   "speechId": "122104183X01120260625_023",
+   "topicId": "t0010"
+  },
+  {
+   "speechId": "122104183X01120260625_024",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_025",
+   "topicId": "t0111"
+  },
+  {
+   "speechId": "122104183X01120260625_026",
+   "topicId": "procedural"
+  }
+ ]
+}

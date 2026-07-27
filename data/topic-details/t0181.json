@@ -5,7 +5,7 @@
  "description": "プラスチック製レンタルコンテナの回収率低下によるコスト上昇が農家に転嫁される問題と、JAによる流通条件交渉強化を求める議論。",
  "firstSeen": "2026-05-12",
  "totalChars": 2250,
- "sessionShare": 0.0001720115628466033,
+ "sessionShare": 0.00013780455418940544,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

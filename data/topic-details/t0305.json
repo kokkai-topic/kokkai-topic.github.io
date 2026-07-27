@@ -5,7 +5,7 @@
  "description": "2030年三十万口目標に向けたEV・PHV充電設備整備の進捗・集合住宅対応・高出力充電器普及・自動車産業との連携を巡る議論。",
  "firstSeen": "2026-04-21",
  "totalChars": 10766,
- "sessionShare": 0.000823056215825125,
+ "sessionShare": 0.0006593794801791729,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

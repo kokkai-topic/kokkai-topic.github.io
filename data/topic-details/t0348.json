@@ -5,7 +5,7 @@
  "description": "苗作り・代かきを省略する節水型乾田直播技術の有効性・課題（雑草対策・収量不安定）を検証し普及可能性を判断する議論。",
  "firstSeen": "2026-03-06",
  "totalChars": 4587,
- "sessionShare": 0.0003506742394566086,
+ "sessionShare": 0.0002809375511408012,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

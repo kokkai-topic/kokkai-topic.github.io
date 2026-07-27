@@ -5,7 +5,7 @@
  "description": "特殊詐欺対策としてデータSIM本人確認義務化・多回線契約規制・警察署長照会規定等を盛り込んだ携帯電話不正利用防止法改正案の審議。",
  "firstSeen": "2026-05-12",
  "totalChars": 57673,
- "sessionShare": 0.004409076828467623,
+ "sessionShare": 0.003532267579451369,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

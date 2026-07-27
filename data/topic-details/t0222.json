@@ -5,7 +5,7 @@
  "description": "女性消防吏員の採用比率10%目標達成に向けた専用施設整備・育休取得環境・キャリアパス構築支援を巡る議論。",
  "firstSeen": "2026-04-28",
  "totalChars": 4049,
- "sessionShare": 0.00030954436354039855,
+ "sessionShare": 0.0002479869510724012,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

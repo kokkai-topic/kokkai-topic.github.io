@@ -5,7 +5,7 @@
  "description": "奨学金の返還利率・有利子制度の見直しや返済減税など奨学金負担軽減を巡る議論。",
  "firstSeen": "2026-04-16",
  "totalChars": 14328,
- "sessionShare": 0.0010953696322071698,
+ "sessionShare": 0.0008775394010781338,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "高校生の理系離れを改善するためSTEAM教育の充実やモータースポーツ等を活用した実社会とつながる理工系教育を推進することを巡る議論。",
  "firstSeen": "2026-03-04",
  "totalChars": 16504,
- "sessionShare": 0.001261723925875707,
+ "sessionShare": 0.001010811716596421,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

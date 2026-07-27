@@ -5,7 +5,7 @@
  "description": "ホルムズ海峡封鎖等によるエネルギー供給危機を想定した原子力再稼働・次世代炉・石炭活用・LNG代替策など国内エネルギー対策",
  "firstSeen": "2026-03-10",
  "totalChars": 27525,
- "sessionShare": 0.0021042747854901137,
+ "sessionShare": 0.0016858090462503932,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

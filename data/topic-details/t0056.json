@@ -5,7 +5,7 @@
  "description": "暗号資産の申告分離課税二〇%適用時期の前倒し・レバレッジ規制緩和・ETF解禁・呼称整理を巡る議論。",
  "firstSeen": "2026-03-02",
  "totalChars": 26400,
- "sessionShare": 0.002018269004066812,
+ "sessionShare": 0.0016169067691556905,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

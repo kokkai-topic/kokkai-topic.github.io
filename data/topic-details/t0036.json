@@ -5,7 +5,7 @@
  "description": "後発品の供給不安解消・医薬品原料の国産化・薬価制度などサプライチェーン安定を巡る議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 31152,
- "sessionShare": 0.0023815574247988383,
+ "sessionShare": 0.0019079499876037147,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

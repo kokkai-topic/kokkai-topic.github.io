@@ -5,7 +5,7 @@
  "description": "石綿による健康被害救済法に基づく療養手当・特別遺族弔慰金の給付額見直しや基金残高の維持、被害認定の継続を巡る議論。",
  "firstSeen": "2026-04-10",
  "totalChars": 4488,
- "sessionShare": 0.000343105730691358,
+ "sessionShare": 0.0002748741507564674,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

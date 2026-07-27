@@ -5,7 +5,7 @@
  "description": "教科書に記述される領土問題・歴史事実の基準の適切性と、教科書検定制度の透明性・社会変化への即応性を巡る議論。",
  "firstSeen": "2026-04-22",
  "totalChars": 7859,
- "sessionShare": 0.0006008172766273135,
+ "sessionShare": 0.00048133599616646106,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

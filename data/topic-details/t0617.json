@@ -5,7 +5,7 @@
  "description": "統合型リゾート（IR）整備法に基づく新たな区域申請と審査、大阪IR以外への拡大の是非、カジノ依存症対策の在り方をめぐる議論。",
  "firstSeen": "2026-03-10",
  "totalChars": 1254,
- "sessionShare": 0.00009586777769317357,
+ "sessionShare": 0.00007680307153489529,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

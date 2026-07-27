@@ -5,7 +5,7 @@
  "description": "社会保障費目安対応の見直しと全世代型社会保障のグランドデザインを巡る議論。",
  "firstSeen": "2026-03-24",
  "totalChars": 51580,
- "sessionShare": 0.003943269516279021,
+ "sessionShare": 0.003159092846706459,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

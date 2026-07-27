@@ -5,7 +5,7 @@
  "description": "地方環境事務所を地方環境局に格上げし環境行政の体制強化を図る環境省設置法改正の審議。",
  "firstSeen": "2026-04-14",
  "totalChars": 20342,
- "sessionShare": 0.0015551374273002686,
+ "sessionShare": 0.0012458756628092825,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "TICAD実績を基盤に自由で開かれたインド太平洋のアフリカへの展開・重要鉱物資源外交・成長好循環を巡る議論。",
  "firstSeen": "2026-05-12",
  "totalChars": 13416,
- "sessionShare": 0.0010256476120666799,
+ "sessionShare": 0.0008216826217800282,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

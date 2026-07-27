@@ -5,7 +5,7 @@
  "description": "滞在地で投票日前日に不在者投票した場合に配送遅延で無効となる問題と、選挙人への早期投票周知強化を巡る議論。",
  "firstSeen": "2026-04-28",
  "totalChars": 1010,
- "sessionShare": 0.00007721407932225304,
+ "sessionShare": 0.00006185893321391088,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

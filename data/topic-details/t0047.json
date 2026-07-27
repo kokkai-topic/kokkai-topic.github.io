@@ -5,7 +5,7 @@
  "description": "OTC類似薬の保険給付見直しと応能負担導入による社会保険料引き下げを目指す医療制度改革を巡る議論。",
  "firstSeen": "2026-03-02",
  "totalChars": 81907,
- "sessionShare": 0.006261756034700772,
+ "sessionShare": 0.005016514497774059,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

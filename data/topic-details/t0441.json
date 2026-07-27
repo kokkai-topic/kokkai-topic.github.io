@@ -5,7 +5,7 @@
  "description": "攻めの予防医療の一環として歯科健診の義務化・標準化を進め、口腔の健康を全身疾患予防につなげる施策を巡る議論。",
  "firstSeen": "2026-04-17",
  "totalChars": 8259,
- "sessionShare": 0.0006313971100222652,
+ "sessionShare": 0.0005058345835779109,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

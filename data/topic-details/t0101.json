@@ -5,7 +5,7 @@
  "description": "旧統一教会への解散命令請求と高市総理を含む自民党議員の教団関係・名称変更への関与を巡る議論。",
  "firstSeen": "2026-03-03",
  "totalChars": 41423,
- "sessionShare": 0.0031667710967977106,
+ "sessionShare": 0.0025370124658612185,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

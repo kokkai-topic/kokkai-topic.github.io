@@ -5,7 +5,7 @@
  "description": "NTTドコモの3Gサービス終了を受けた個人・産業用IoTモジュール移行支援の総括と、今後の4G/5G世代交代への知見活用を巡る議論。",
  "firstSeen": "2026-04-28",
  "totalChars": 2231,
- "sessionShare": 0.0001705590207603431,
+ "sessionShare": 0.00013664087128736156,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }

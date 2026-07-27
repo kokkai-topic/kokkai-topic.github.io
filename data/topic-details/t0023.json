@@ -5,7 +5,7 @@
  "description": "政治資金パーティー券・議員への金品提供・寄附控除など政治資金を巡る議論。",
  "firstSeen": "2026-02-27",
  "totalChars": 9935,
- "sessionShare": 0.0007595266119471128,
+ "sessionShare": 0.0006084836648318858,
  "weekly": [
   {
    "week": "2026-W08",
@@ -89,6 +89,31 @@
   },
   {
    "week": "2026-W24",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W25",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W26",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W27",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W28",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W29",
    "chars": 0,
    "share": 0
   }
