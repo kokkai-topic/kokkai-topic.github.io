@@ -5,7 +5,7 @@
  "description": "消防団の担い手不足対策・報酬直接支給・処遇改善を巡る議論。",
  "firstSeen": "2026-04-28",
  "totalChars": 17935,
- "sessionShare": 0.001098455413060883,
+ "sessionShare": 0.001065798798817715,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

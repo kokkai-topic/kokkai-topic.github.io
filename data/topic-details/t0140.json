@@ -5,7 +5,7 @@
  "description": "防災DXの官民連携（D-CERT）と防災情報のデジタル化（SOBO-WEB等）を巡る議論。",
  "firstSeen": "2026-05-14",
  "totalChars": 6625,
- "sessionShare": 0.00040575785400213824,
+ "sessionShare": 0.0003936948448378791,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "UNMISS参謀長ポストへの自衛官派遣など国連PKOへの人的貢献の実績と今後のPKO戦略を巡る議論。",
  "firstSeen": "2026-06-18",
  "totalChars": 1746,
- "sessionShare": 0.00010693633405097862,
+ "sessionShare": 0.0001037571621263301,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

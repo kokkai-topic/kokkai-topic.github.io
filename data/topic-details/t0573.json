@@ -5,7 +5,7 @@
  "description": "障害年金の認定審査の透明性と児童扶養手当等との併給調整を巡る議論。",
  "firstSeen": "2026-03-24",
  "totalChars": 7867,
- "sessionShare": 0.00048182596791469004,
+ "sessionShare": 0.0004675014859380521,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

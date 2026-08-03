@@ -1,0 +1,28 @@
+{
+ "key": "2026-W30",
+ "label": "7/20の週",
+ "totalChars": 965,
+ "topics": [
+  {
+   "id": "t0393",
+   "name": "能登半島地震の復興",
+   "category": "国土・交通・防災",
+   "chars": 965,
+   "share": 1
+  }
+ ],
+ "byParty": {
+  "自由民主党・無所属の会": {
+   "totalChars": 965,
+   "topics": [
+    {
+     "id": "t0393",
+     "name": "能登半島地震の復興",
+     "category": "国土・交通・防災",
+     "chars": 965,
+     "share": 1
+    }
+   ]
+  }
+ }
+}

@@ -5,7 +5,7 @@
  "description": "家主不在型民泊の住環境問題と違法民泊対策を巡る議論。",
  "firstSeen": "2026-04-24",
  "totalChars": 17743,
- "sessionShare": 0.001086696091103387,
+ "sessionShare": 0.001054389076522036,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

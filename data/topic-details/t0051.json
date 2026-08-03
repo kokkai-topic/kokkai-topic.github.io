@@ -5,7 +5,7 @@
  "description": "連立合意に基づく外務省内の和平調停専門部署の設置を巡る議論。",
  "firstSeen": "2026-03-02",
  "totalChars": 23094,
- "sessionShare": 0.0014144259442000575,
+ "sessionShare": 0.0013723756598771292,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

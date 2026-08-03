@@ -5,7 +5,7 @@
  "description": "ICAO・UPU等の国際機関における日本人職員数の少なさと幹部・トップ登用を通じた日本のプレゼンス強化を巡る議論。",
  "firstSeen": "2026-05-28",
  "totalChars": 8077,
- "sessionShare": 0.0004946877263057012,
+ "sessionShare": 0.0004799808696989509,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

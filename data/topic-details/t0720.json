@@ -5,7 +5,7 @@
  "description": "JESCOによる高濃度PCB処理終了後の民間施設への移行に伴う事故時責任や、在日米軍施設由来PCB廃棄物の把握・処理負担を巡るPCB特措法改正の議論。",
  "firstSeen": "2026-05-25",
  "totalChars": 14785,
- "sessionShare": 0.0009055290371957153,
+ "sessionShare": 0.0008786080424042329,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "再配達削減・中継輸送・JR貨物再生などトラック輸送を含む物流効率化を巡る議論。",
  "firstSeen": "2026-03-06",
  "totalChars": 106345,
- "sessionShare": 0.006513255695676587,
+ "sessionShare": 0.006319619362156114,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

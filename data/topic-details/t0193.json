@@ -5,7 +5,7 @@
  "description": "保育士の処遇改善・人材確保と配置基準の改善・給食費無償化を巡る議論。",
  "firstSeen": "2026-05-08",
  "totalChars": 27112,
- "sessionShare": 0.0016605142547480712,
+ "sessionShare": 0.0016111478691689931,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

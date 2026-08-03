@@ -5,7 +5,7 @@
  "description": "国保財政安定化基金・保険料統一と均等割の子育て世帯軽減を巡る議論。",
  "firstSeen": "2026-04-17",
  "totalChars": 10915,
- "sessionShare": 0.0006685052039899379,
+ "sessionShare": 0.0006486308273819548,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

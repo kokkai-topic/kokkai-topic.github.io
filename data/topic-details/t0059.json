@@ -5,7 +5,7 @@
  "description": "所得税基礎控除の引上げ・物価連動と所得制限撤廃を巡る議論。",
  "firstSeen": "2026-03-02",
  "totalChars": 54474,
- "sessionShare": 0.0033363401266282987,
+ "sessionShare": 0.0032371521475771515,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }

@@ -5,7 +5,7 @@
  "description": "東日本大震災・福島の復興状況、教訓継承、被災者の心のケアを巡る議論。",
  "firstSeen": "2026-04-01",
  "totalChars": 91616,
- "sessionShare": 0.005611156460718475,
+ "sessionShare": 0.005444339155421455,
  "weekly": [
   {
    "week": "2026-W08",
@@ -114,6 +114,11 @@
   },
   {
    "week": "2026-W29",
+   "chars": 0,
+   "share": 0
+  },
+  {
+   "week": "2026-W30",
    "chars": 0,
    "share": 0
   }
